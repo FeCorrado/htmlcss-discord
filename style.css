@@ -10,6 +10,7 @@
     height: 500px;
     background-size:contain;
     margin-top: 0;
+    position: relative;
 }
 
 nav{
@@ -25,6 +26,7 @@ nav{
 
 .header{
     display: inline-table;
+    width: ;
 }
 
 li{
@@ -54,4 +56,52 @@ li{
     margin-top: -20px;
     float: right;
     padding: 5px;
+}
+
+.testo-centro{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    width: 560px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.jumbo-text{
+    margin-top: 20px;
+}
+
+.big-text{
+    font-size: 40px;
+}
+
+.bottoni{
+    display: inline-table;
+    width: 560px;
+}
+
+.bianco{
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    width: 160px;
+    height: 40px;
+    margin: 0;
+    margin-top: 20px;
+    padding: 12px;
+}
+
+.nero{
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    width: 230px;
+    height: 40px;
+    margin: 0;
+    margin-top: 20px;
+    padding: 12px;
 }
