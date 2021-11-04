@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .sfondo{
     background: url(img/jumbo.png);
     background-repeat: no-repeat;
-    height: 500px;
+    height: 373px;
+    width: 1000px;
     background-size:contain;
     margin-top: 0;
     position: relative;
@@ -15,6 +17,7 @@
 
 nav{
     background-color: rgb(26, 98, 232);
+    width: 1000px;
 }
 
 .centro{
@@ -52,7 +55,7 @@ li{
     border-radius: 25px;
     width: 70px;
     height: 30px;
-    margin-right: 110px;
+    margin-right: 400px;
     margin-top: -20px;
     float: right;
     padding: 5px;
@@ -77,6 +80,11 @@ li{
     font-size: 40px;
 }
 
+.big-text2{
+    font-size: 40px;
+    line-height: 40px;
+}
+
 .bottoni{
     display: inline-table;
     width: 560px;
@@ -89,9 +97,9 @@ li{
     border-radius: 25px;
     width: 160px;
     height: 40px;
-    margin: 0;
     margin-top: 20px;
     padding: 12px;
+    margin-left: 80px;
 }
 
 .nero{
@@ -99,9 +107,41 @@ li{
     color: white;
     background-color: black;
     border-radius: 25px;
-    width: 230px;
+    width: 250px;
     height: 40px;
-    margin: 0;
-    margin-top: 20px;
+    margin-top: -40px;
     padding: 12px;
+    z-index: 1;
+    margin-left: 257px;
+
+}
+
+.container-bottom{
+    width: 1000px;
+    margin-top: 0;
+}
+
+.container-bottom::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.img1{
+    float: left;
+    width: 470px;
+    margin-top: 80px;
+    margin-left: 110px;
+}
+
+.container-testo{
+    float: right;
+    width: 290px;
+    margin-top: 80px;
+    margin-right: 75px;
+}
+
+.small-text{
+    margin-top: 40px;
+    line-height: 24px;
 }
